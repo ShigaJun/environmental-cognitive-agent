@@ -1,13 +1,10 @@
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import DropImageZone from "./components/DropImageZone";
 
 export default function App() {
     return (
         <div>
-            <Header />
-            <Main />
-            <Footer />
+            <h1>そっとナビ</h1>
+            <DropImageZone />
         </div>
     );
 }
